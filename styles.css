@@ -793,7 +793,7 @@ iframe {
 
 .contact {
   background-color: #333B50;
-  padding: 10rem 0;
+  padding: 3rem 0;
   opacity: 1;
 }
 
@@ -806,12 +806,15 @@ iframe {
   z-index: 1;
   width: 100%;
   max-width: 1300px;
-  padding: 0 50px;
+  padding: 0 30px;
 }
 
 .contact__content {
   color: #fff;
   width: 100%;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
 }
 
 .contact__link {
