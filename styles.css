@@ -214,7 +214,7 @@
   margin: 0 auto;
   height: 90%;
   text-align: center;
-  padding: 30px;
+  padding: 15px;
 }
 
 .hero__heading {
@@ -297,7 +297,7 @@
 /* About Section */
 .main {
   background-color: #333B50;
-  padding: 10rem 0;
+  padding: 3rem 0;
   opacity: 1;
 }
 
@@ -351,21 +351,7 @@
 
 .main__content h2 {
   font-size: 4rem;
-  background: #18bbfc; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    -225deg,
-    #f4f3f7 0%,
-    #a8a5aa 29%,
-    #807e7e 67%,
-    #4b4b49 100%
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    -225deg,
-    #f4f3f7 0%,
-    #a8a5aa 29%,
-    #807e7e 67%,
-    #4b4b49 100%
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: white; /* fallback for old browsers */
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -828,7 +814,16 @@ iframe {
   width: 100%;
 }
 
-.dark-mode {
-  background-color: #e9e9e9;
-  color: black;
+.contact__link {
+  text-decoration: none;
+  background-image: linear-gradient(#18bbfc,#18bbfc);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: 0% 3px;
+  transition: background-size 500ms ease-in-out;
+}
+
+.contact__link:hover {
+  background-size: 100% 3px;
+  color: inherit;
 }
