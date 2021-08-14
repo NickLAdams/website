@@ -314,6 +314,19 @@
   padding: 0 30px;
 }
 
+.main__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 90%;
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  padding: 0 30px;
+}
+
 .main__content {
   color: #fff;
   width: 100%;
@@ -430,6 +443,13 @@
   #a8a5aa 29%,
   #807e7e 67%,
   #4b4b49 100%);
+}
+
+.main__icon {
+  color: #fff;
+  font-size: 64px;
+  padding-left: 36px;
+  vertical-align: middle;
 }
 
 .fa-layer-group,
