@@ -437,6 +437,34 @@ body {
   #4b4b49 100%);
 }
 
+.main_column {
+  float: left;
+  width: 50%;
+}
+
+.img_row {
+  align-content: right;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.main_content_column {
+  flex: 33.33%;
+  padding: 0 1px;
+}
+
+.main_content_column img {
+  margin-top: 1px;
+  vertical-align: middle;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .main__img--img {
   height: 500px;
   width: 500px;
